@@ -51,7 +51,7 @@ body, html {
   font-weight: 500;
   letter-spacing: 0.4em;
   font-family: 'Helvetica', sans-serif;
-  opacity: 0.75;
+  opacity: 1;
 }
 
 #bg-wrap svg {
