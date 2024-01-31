@@ -51,12 +51,16 @@ body, html {
   font-weight: 500;
   letter-spacing: 0.4em;
   font-family: 'Helvetica', sans-serif;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 #bg-wrap svg {
   width: 100%;
   height: 100%;
+}
+
+body.dark-mode .footer {
+  opacity: 1;
 }
 
 @media (max-width: 910px) {
@@ -106,11 +110,5 @@ body, html {
   }
   .footer {
     font-size: 10px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .footer {
-    opacity: 1;
   }
 }
