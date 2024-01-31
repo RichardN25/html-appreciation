@@ -32,10 +32,11 @@ body, html {
 }
 
 .thin {
-  /*margin-left: -50px;*/
+  margin: 0px 50px;
   text-transform: uppercase;
+  text-align: center;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 0.4em;
   font-family: 'Helvetica', sans-serif;
 }
@@ -47,7 +48,7 @@ body, html {
   width: 100%;
   text-align: center;
   z-index: 2;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.4em;
   font-family: 'Helvetica', sans-serif;
@@ -57,4 +58,54 @@ body, html {
 #bg-wrap svg {
   width: 100%;
   height: 100%; /* Set SVG height to 100% of #bg-wrap */
+}
+
+@media (max-width: 910px) {
+  .main-title {
+    font-size: 140px;
+  }
+  .thin {
+    font-size: 18px;
+  }
+  .footer {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 710px) {
+  .main-title {
+    font-size: 120px;
+  }
+  .thin {
+    font-size: 16px;
+  }
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 485px) {
+  .main-title {
+    margin: 0px 15px;
+    font-size: 100px;
+  }
+  .thin {
+    font-size: 14px;
+  }
+  .footer {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 335px) {
+  .main-title {
+    margin: 0px 0px;
+    font-size: 80px;
+  }
+  .thin {
+    font-size: 12px;
+  }
+  .footer {
+    font-size: 10px;
+  }
 }
