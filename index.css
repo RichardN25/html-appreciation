@@ -109,9 +109,3 @@ body, html {
     font-size: 10px;
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  body {
-    display: none;
-  }
-}
