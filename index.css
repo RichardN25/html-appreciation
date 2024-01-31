@@ -25,7 +25,6 @@ body, html {
 
 .main-title {
   font-size: 160px;
-  /*letter-spacing: 0.1em;*/
   text-align: center;
   font-family: 'The Scientist', sans-serif;
   padding-left: 50px;
@@ -57,7 +56,7 @@ body, html {
 
 #bg-wrap svg {
   width: 100%;
-  height: 100%; /* Set SVG height to 100% of #bg-wrap */
+  height: 100%;
 }
 
 @media (max-width: 910px) {
@@ -107,5 +106,11 @@ body, html {
   }
   .footer {
     font-size: 10px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer {
+    opacity: 1;
   }
 }
